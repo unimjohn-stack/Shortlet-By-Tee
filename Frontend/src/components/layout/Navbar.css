@@ -1,0 +1,51 @@
+*{
+    margin: 0`;
+    /* padding: 0; */
+}
+nav{
+    /* margin: 20px; */
+    background-color: #D1D5DB;
+}
+
+nav a{
+    /* color: #365243; */
+    color: #004040;
+    font-weight: 600;
+    transition: ease 0,3s;
+}
+nav a:hover{
+    /* color: #E0AA3E; */
+    color: #c9a94d;
+    transform: translateY(-5px);
+}
+
+nav button {
+    transition: ease-in-out 0.2s;
+}
+nav button {
+    transform: scale(-3px);
+}
+
+nav .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .contact .Phone{
+    font-size: 24px;
+    font-weight: 700;
+    color: #004040;
+    margin-right: 20px;
+}
+
+/* --ast-global-color-0: #004040;
+    --ast-global-color-1: #c9a94d;
+    --ast-global-color-2: #222222;
+    --ast-global-color-3: #0a1f44;
+    --ast-global-color-4: #FFFFFF;
+    --ast-global-color-5: #F0F5FA;
+    --ast-global-color-6: #111111;
+    --ast-global-color-7: #D1D5DB;
+    --ast-global-color-8: #111111;
+} */

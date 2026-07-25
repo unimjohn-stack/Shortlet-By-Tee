@@ -14,7 +14,7 @@ const Button = ({ children, variant = "primary", size = "md", className= "", ...
         lg: "px-7 py-4 text-lg",
     };
   return (
-    <button className={`rounded-md font-medium transtion-all duration-300 ${variants[variant]} ${sizes[size]} ${className}`} {...props}>
+    <button className={`rounded-md font-medium transition-all duration-300 ${variants[variant]} ${sizes[size]} ${className}`} {...props}>
         {children}
     </button>
   );
