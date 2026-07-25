@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+   /* Brand  */
+  --color-primary: #0504AA;     /* Deep Navy */
+  --color-secondary: #166534;   /* Green */
+  --color-accent: #E0AA3E;      /* Gold */
+  --color-background: #FFFBEB;  /* Warm cream */
+  /* UI */
+  --color-surface: #FFFFFF;
+  --color-muted: #64748B;
+  --color-border: #E2E8F0;
+
+  /* Text */
+  --color-heading: #0F172A;
+  --color-body: #334155;
+}
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+}
