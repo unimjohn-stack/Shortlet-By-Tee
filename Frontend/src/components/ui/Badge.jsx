@@ -5,7 +5,8 @@ const Badge = ({ children, variant="primary", className = "", ...props}) => {
         secondary: "bg-secondary/10 text-accent",
         success: "bg-green-100 text-green-700",
         danger: "bg-red-100 text-red-700",
-        premium:"bg-accent/20 text-yellow-800 border border-accent/30 backdrop-blur-md shadow-sm"
+        premium:"bg-accent/20 text-yellow-400 border border-accent/30 backdrop-blur-xs shadow-sm",
+        clear: "bg-black-900 backdrop-blur-xs text-white",
         // premium:`
         //     bg-white/20
         //     text-white

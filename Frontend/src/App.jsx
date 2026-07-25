@@ -10,6 +10,7 @@ import Card from './components/ui/Card';
 import Badge from './components/ui/Badge';
 import Loader from './components/ui/Loader';
 import Modal from './components/ui/Modal';
+import HeroSection from './components/HeroSection'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <HeroSection />
     </>
   )
 }

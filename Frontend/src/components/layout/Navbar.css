@@ -34,10 +34,18 @@ nav .contact {
 
 nav .contact .Phone{
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     color: #004040;
     margin-right: 20px;
+    display: flex;
+    align-items: center;
 }
+
+nav .contact .icon {
+    margin-right: 5px;
+}
+
+
 
 /* --ast-global-color-0: #004040;
     --ast-global-color-1: #c9a94d;

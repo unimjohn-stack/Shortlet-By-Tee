@@ -1,5 +1,6 @@
 import Button from "../ui/Button";
 import './Navbar.css';
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Navbar = () => {
     const links = [
@@ -18,7 +19,9 @@ const Navbar = () => {
                 ))}
             </div>
             <div className="contact">
-            <div className="Phone">+2349064609367</div>
+            <div className="Phone hidden md:block">
+                <FaPhoneAlt className="icon" />
+                +2349130477699</div>
                 
                 <Button>
                     Book Now
