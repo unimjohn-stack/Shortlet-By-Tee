@@ -9,19 +9,27 @@ const roomSchema = new mongoose.Schema({
     title: {
         type: String,
         required: true,
+        trim: true,
     },
     description: {
         type: String,
         required: true,
+        trim: true,
     },
     location: {
         type: String,
         required: true,
+        trim: true,
     },
     pricePerNight: {
         type: Number,
         required: true,
         min: 1
+    },
+    bathrooms: {
+        type: Number,
+        required: true,
+        min: 1,
     },
     bedrooms: {
         type: Number,
@@ -43,7 +51,7 @@ const roomSchema = new mongoose.Schema({
     },
     isAvailable: {
         type: Boolean,
-        required: true,
+        default: true,
     },
 }, {
     timestamps: true
